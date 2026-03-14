@@ -70,7 +70,7 @@ public class Main {
         System.out.println(idade--);
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("digite o seu nome")
+        System.out.println("digite o seu nome");
         nome = sc.nextLine();
         System.out.println(nome);
 
