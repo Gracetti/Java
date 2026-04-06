@@ -1,5 +1,0 @@
-[ex1.java](https://github.com/user-attachments/files/26494017/ex1.java)
-[ex2.java](https://github.com/user-attachments/files/26494018/ex2.java)
-[ex3.java](https://github.com/user-attachments/files/26494014/ex3.java)
-[ex4.java](https://github.com/user-attachments/files/26494015/ex4.java)
-[ex5.java](https://github.com/user-attachments/files/26494016/ex5.java)

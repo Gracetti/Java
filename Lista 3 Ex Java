@@ -1,0 +1,152 @@
+public class ex1 {
+
+    static class Aluno {
+        String nome;
+        int idade;
+        String cidade;
+    }
+        public static void main(String[] args) {
+
+            Aluno aluno = new Aluno();
+            aluno.nome = "Igor";
+            aluno.idade = 20;
+            aluno.cidade = "São Paulo";
+
+            System.out.println(aluno.nome + " - " + aluno.idade + " - " + aluno.cidade);
+        }
+
+    }
+
+
+    
+public class ex2 {
+
+    static class Veiculo {
+        String modelo;
+        String marca;
+        int velocidade;
+    }
+
+    public class App {
+        public static void main(String[] args) {
+
+            Veiculo carro1 = new Veiculo();
+            carro1.modelo = "Ferrari";
+            carro1.marca = "Ferrari";
+            carro1.velocidade = 300;
+
+            Veiculo carro2 = new Veiculo();
+            carro2.modelo = "Fusca";
+            carro2.marca = "Volkswagen";
+            carro2.velocidade = 120;
+
+            System.out.println(carro1.modelo + " - " + carro1.velocidade);
+            System.out.println(carro2.modelo + " - " + carro2.velocidade);
+        }
+    }
+}
+
+
+
+public class ex3 {
+
+    static class Calculadora {
+
+        int soma(int a, int b) {
+            return a + b;
+        }
+
+        int subtracao(int a, int b) {
+            return a - b;
+        }
+
+        int multiplicacao(int a, int b) {
+            return a * b;
+        }
+
+        double divisao(double a, double b) {
+            return a / b;
+        }
+    }
+
+    public class App {
+        public static void main(String[] args) {
+
+            Calculadora calc = new Calculadora();
+
+            System.out.println("Soma: " + calc.soma(10, 5));
+            System.out.println("Subtração: " + calc.subtracao(10, 5));
+            System.out.println("Multiplicação: " + calc.multiplicacao(10, 5));
+            System.out.println("Divisão: " + calc.divisao(10, 5));
+        }
+    }
+}
+
+
+
+public class ex4 {
+
+    boolean ligada;
+
+        void ligar() {
+            ligada = true;
+        }
+
+        void desligar() {
+            ligada = false;
+        }
+
+        void mostrarEstado() {
+            if (ligada) {
+                System.out.println("Lâmpada acesa");
+            } else {
+                System.out.println("Lâmpada apagada");
+            }
+        }
+
+        public static void main(String[] args) {
+
+            ex4 lampada = new ex4();
+
+            lampada.mostrarEstado();
+            lampada.ligar();
+            lampada.mostrarEstado();
+            lampada.desligar();
+            lampada.mostrarEstado();
+        }
+    }
+
+
+    
+public class ex5 {
+
+    static class Pet {
+        String nome;
+        int fome;
+
+        void comer() {
+            fome--;
+        }
+
+        void status() {
+            System.out.println("Nome: " + nome);
+            System.out.println("Fome: " + fome);
+        }
+
+        public static void main(String[] args) {
+
+            Pet pet = new Pet();
+            pet.nome = "Rex";
+            pet.fome = 5;
+
+            pet.status();
+            pet.comer();
+            pet.status();
+        }
+    }
+}
+
+
+
+
+
